@@ -104,10 +104,10 @@ void main(void)
 		// occur with the other position type, since it leaves no gaps. So uncomment the line below to use
 		// that clip space position again to simply render those with the VertexLocation based position!
 		// These sorts of aliasing problems make up a good portion of graphics programming.
-	//if( ClipSpace.z / ClipSpace.w > 0.996 )
-	//{
-	//	ClipSpace = MVP * Position2;									   // Use the second position for our vertex position.
-	//}
+	if( ClipSpace.z / ClipSpace.w > 0.996 )
+	{
+		ClipSpace = MVP * Position2;									   // Use the second position for our vertex position.
+	}
 
 
 	gl_Position = ClipSpace;
