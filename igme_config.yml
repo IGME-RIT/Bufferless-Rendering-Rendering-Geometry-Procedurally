@@ -1,14 +1,14 @@
-series: Index Buffer Rendering
+series: Bufferless Rendering
 title: Rendering Geometry Procedurally
 author:
   name: Joshua Alway
   email: 
   github: https://github.com/IGME-RIT
-description: Render a surface using a much larger index buffer.
+description: Render a surface using a large number of indices.
 language: C++
 tags:
   - Graphics
 extra_resources:
 connections:
-  - series: Index Buffer Rendering
+  - series: Bufferless Rendering
     title: Rendering without Vertex Data

@@ -1,4 +1,4 @@
-# Index Buffer Rendering: Rendering Geometry Procedurally
+# Bufferless Rendering: Rendering Geometry Procedurally
 
 This example builds off of the previous, adding more indices, and using them to generate several triangles in different positions.
 
