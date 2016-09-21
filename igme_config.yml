@@ -12,3 +12,5 @@ extra_resources:
 connections:
   - series: Bufferless Rendering
     title: Rendering without Vertex Data
+  - series: Basic OpenGL with GLFW
+    title: 3D Cameras
